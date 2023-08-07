@@ -66,7 +66,7 @@ const DivisaContai = () => {
                     {
                         Object.entries(allDivisas).map(([name, value]) => {
                             return (
-                                <option key={name} value={value}>{name}</option>
+                                <option key={name} value={value.toFixed(2)}>{name}</option>
                             )
                         })
                     }
